@@ -17,7 +17,7 @@ body {
 .tableau-style {
   border-collapse: collapse;
   min-width: 1000px;
-  min-height: 1000px;
+  min-height: 100px;
   width: auto;
   box-shadow: 0 5px 50px rgba(0, 0, 0, 0.15);
   cursor: pointer;
@@ -39,12 +39,20 @@ td {
   
 }
 
+tbody tr.poste {
+    color:#1279ba;
+    font-size:10px;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.692);
+}
+
 
 tbody tr,
 td,
 th {
   border: 1px solid #ddd;
 }
+/*
 tbody tr:nth-child(even) {
   background-color: #f3f3f3;
 }
